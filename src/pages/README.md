@@ -1,14 +1,14 @@
-**Normal Pages:**
-- _Index.vue_ is /
-- _About.vue_ is /about
-- _about/History.vue_ is /about/history
+### Normal Pages:
+- **Index.vue** is /
+- **About.vue** is /about
+- **about/History.vue** is /about/history
 
-**Data pages:**
-Data pages is used for creating single pages for GraphQL types.
-- __Post.vue_ gets data from Post GraphQL type.
-- __Portfolio.vue_ gets data from Portfolio GraphQL type,
+### Template pages:
+Template pages is used for creating single pages for GraphQL types.
+- **_template/Post.vue** gets data from Post GraphQL type.
+- **_template/Portfolio.vue** gets data from Portfolio GraphQL type.
 
-**Dynamic pages:**
-- _account/$user.vue_ creates dynamic account/:user url with access to $route.user param.
+### Dynamic pages:
+- **account/$user.vue** creates dynamic account/:user url with access to $route.user param.
 
 You can delete this file.
