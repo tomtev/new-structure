@@ -1,13 +1,11 @@
 ---
 route: /blog/:title
-title: $page.query.post.title
 layout: SidebarLeft
-appProps: {transparent: $page.query.post.transparent}
 ---
 
 <template>
   <div>
-    <h1 v-html="$page.title"/>
+    <h1 v-html="$page.query.post.title"/>
     <div v-html="$page.query.post.content" />
   </div>
 </template>

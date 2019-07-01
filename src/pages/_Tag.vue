@@ -1,12 +1,11 @@
 ---
-title: $page.query.post.title
 route: /tags/:title
 layout: SidebarLeft
 ---
 
 <template>
   <div>
-    <h1 v-html="$page.title"/>
+    <h1 v-html="$page.query.post.title"/>
     <div v-html="$page.query.post.content" />
   </div>
 </template>
