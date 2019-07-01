@@ -1,7 +1,6 @@
 ---
 title: About us
 ---
-
 <template>
   <div>
     <h1>{{ $page.title }}</h1>
