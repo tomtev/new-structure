@@ -1,7 +1,7 @@
 ---
 title: Our Blog
 layout: SidebarLeft
-appProps: {transparent: true}
+appProps: { transparent: true }
 ---
 
 <template>

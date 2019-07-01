@@ -1,6 +1,9 @@
 ---
 route: /blog/:title
-layout: SidebarLeft
+layout:
+  name: SidebarLeft
+  props:
+    header: false
 ---
 
 <template>
