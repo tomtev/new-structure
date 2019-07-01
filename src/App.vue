@@ -2,7 +2,7 @@
 	<div id="app">
 		<header class="header">
 		  <strong>
-		    <g-link to="/">{{ $static.metaData.siteName }}</g-link>
+		    <g-link to="/"> {{ $static.metaData.siteName }} </g-link>
 		  </strong>
 
 		  <nav class="nav">
