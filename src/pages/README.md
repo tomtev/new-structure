@@ -15,5 +15,4 @@ Add a **_TypeName[$param].vue** to create pages and routes.
 
 ### Dynamic pages:
 - **account/$user.vue** creates dynamic `account/:user` url with access to **$route.param.user**.
-
-You can delete this file.
+Dynamic pages will generate a _param.html file that all dynamic routes will do a 200 redirect to.
