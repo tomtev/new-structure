@@ -6,6 +6,7 @@
 
 ### Source pages:
 Source pages is used for creating single-page templates for GraphQL types.
+Add a **_TypeName[$param].vue** to create pages and routes.
 
 - **_Post[$year][$month][$title].vue** will create pages for **Post** type at `*/:year/:month/:title`.
 - **_Author[$name].vue** will create pages for **Author** type  at`*/:name`.
