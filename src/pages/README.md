@@ -4,8 +4,8 @@
 - **About.vue** will be `/about`
 - **about/History.vue** will be `/about/history`
 
-### Source pages:
-Source pages is used for creating single-page templates for GraphQL types.
+### Template pages:
+Template pages is used for creating single pages for GraphQL types.
 Add a **_TypeName[$param].vue** to create pages and routes.
 
 - **_Post[$year][$month][$title].vue** will create pages for **Post** type at `*/:year/:month/:title`.
