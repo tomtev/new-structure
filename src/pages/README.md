@@ -1,8 +1,8 @@
 ### Normal Pages:
-- **Index.vue** is /
-- **Blog.vue** will be /blog
-- **About.vue** will be /about
-- **about/History.vue** will be /about/history
+- **Index.vue** is `/` (index.html)
+- **Blog.vue** will be `/blog`
+- **About.vue** will be `/about`
+- **about/History.vue** will be `/about/history`
 
 
 ### Template pages:
