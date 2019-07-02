@@ -8,8 +8,8 @@
 Source pages is used for creating single pages for data collections.
 Add a **_TypeName[$param].vue** to create pages and routes.
 
-- **/blog/_Post[$title].vue** will create pages for **Post** type at `blog/:title`.
-- **/blog/_Post[$year][$month][$title].vue** will create pages for **Post** type at `blog/:year/:month/:title`.
+- **/blog/_WordPressPost[$title].vue** will create pages for **WordPressPost** type at `blog/:title`.
+- **/blog/_WordPressPost[$year][$month][$title].vue** will create pages for **WordPressPost** type at `blog/:year/:month/:title`.
 - **/authors/_Author[$name].vue** will create pages for **Author** type  at`authors/:name`.
 - **/authors/_Author[$name][books].vue** will create a sub page for **Author** type at`authors/:name/books`.
 
