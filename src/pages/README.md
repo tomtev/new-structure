@@ -7,9 +7,9 @@
 ### Template pages:
 Template pages is used for creating single-page templates for GraphQL types. These can be added anywhere.
 
-- **_Post[$year][$month][$title].vue** will create pages for **Post** type at `folder/:year/:month/:title`.
-- **_Author[$name].vue** will create pages for **Author** type  at`folder/:name`.
-- **_Author[$name][books].vue** will create a sub page for **Author** type at`folder/:name/books`.
+- **_Post[$year][$month][$title].vue** will create pages for **Post** type at `*/:year/:month/:title`.
+- **_Author[$name].vue** will create pages for **Author** type  at`*/:name`.
+- **_Author[$name][books].vue** will create a sub page for **Author** type at`*/:name/books`.
 
 
 ### Dynamic pages:
