@@ -5,8 +5,8 @@
 - **about/History.vue** will be `/about/history`
 
 
-### Template pages:
-Template pages is used for creating single-page templates for GraphQL types. These can be added anywhere.
+### Data pages:
+Data pages is used for creating single pages for GraphQL types.
 
 - **_Post[$year][$month][$title]** will create pages for **Post** type at `folder/:year/:month/:title`.
 - **_Author[$name]** will create pages for **Author** type  at`folder/:name`.
