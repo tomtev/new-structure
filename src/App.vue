@@ -1,7 +1,3 @@
----
-title: My Website
----
-
 <template>
 	<div id="app">
 		<header class="header">

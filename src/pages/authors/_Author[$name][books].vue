@@ -1,8 +1,3 @@
----
-route: /tags/:title
-layout: SidebarLeft
----
-
 <template>
   <div>
     <h1 v-html="$page.query.post.title"/>
@@ -12,7 +7,7 @@ layout: SidebarLeft
 
 <page-query>
 query Post ($id: String!) {
-  post: Post (id: $path) {
+  post: Post (id: $id) {
     title
     date (format: "D. MMMM YYYY")
     timeToRead

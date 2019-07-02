@@ -1,11 +1,3 @@
----
-route: /blog/:title
-layout:
-  name: SidebarLeft
-  props:
-    header: false
----
-
 <template>
   <div>
     <h1 v-html="$page.query.post.title"/>
@@ -14,8 +6,8 @@ layout:
 </template>
 
 <page-query>
-query Post ($path: String!) {
-  post: Post (path: $path) {
+query Post ($id: String!) {
+  post: Post (id: $id) {
     title
     date (format: "D. MMMM YYYY")
     timeToRead
