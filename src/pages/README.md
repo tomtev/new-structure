@@ -5,7 +5,7 @@
 - **/about/Vision.vue** will be `/about/vision`
 
 ### Source pages:
-Source pages is used for creating single pages for data collections.
+Source pages is used for creating single pages for data sources.
 Add a **_TypeName[$param].vue** to create pages and routes.
 
 - **/blog/_WordPressPost[$title].vue** will create pages for **WordPressPost** type at `blog/:title`.
