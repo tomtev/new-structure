@@ -1,8 +1,8 @@
 ### Normal Pages:
 - **Index.vue** is `/` (index.html)
-- **Blog.vue** will be `/blog`
+- **blog/Index.vue** will be `/blog`
 - **About.vue** will be `/about`
-- **about/History.vue** will be `/about/history`
+- **about/Vision.vue** will be `/about/vision`
 
 ### Template pages:
 Template pages is used for creating single pages for GraphQL types.
