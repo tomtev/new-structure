@@ -4,7 +4,6 @@
 - **About.vue** will be /about
 - **about/History.vue** will be /about/history
 
-
 ### Template pages:
 Template pages is used for creating single-page templates for GraphQL types.
 - **_template/Post.vue** gets data from `Post` GraphQL type.
