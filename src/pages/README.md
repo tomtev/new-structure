@@ -15,4 +15,5 @@ Add a **_TypeName[$param].vue** to create pages and routes.
 
 ### Dynamic pages:
 - **account/$user.vue** creates dynamic `account/:user` url with access to **$route.param.user**.
+
 Dynamic pages will generate a _param.html file that all dynamic routes should do a 200 redirect to. You can do this automatically for Netlify and Zeit with plugins.
