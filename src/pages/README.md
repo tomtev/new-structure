@@ -4,8 +4,8 @@
 - **/About.vue** will be `/about`
 - **/about/Vision.vue** will be `/about/vision`
 
-### Template pages:
-Template pages is used for creating single pages for data collections.
+### Source pages:
+Source pages is used for creating single pages for data collections.
 Add a **_TypeName[$param].vue** to create pages and routes.
 
 - **/blog/_Post[$title].vue** will create pages for **Post** type at `blog/:title`.
