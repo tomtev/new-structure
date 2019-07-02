@@ -8,11 +8,10 @@
 Template pages is used for creating single pages for GraphQL types.
 Add a **_TypeName[$param].vue** to create pages and routes.
 
-- **_Post[$title].vue** will create pages for **Post** type at `*/:title`.
-- **_Post[$year][$month][$title].vue** will create pages for **Post** type at `*/:year/:month/:title`.
-- **_Author[$name].vue** will create pages for **Author** type  at`*/:name`.
-- **_Author[$name][books].vue** will create a sub page for **Author** type at`*/:name/books`.
-
+- **blog/_Post[$title].vue** will create pages for **Post** type at `blog/:title`.
+- **blog/_Post[$year][$month][$title].vue** will create pages for **Post** type at `blog/:year/:month/:title`.
+- **authors/_Author[$name].vue** will create pages for **Author** type  at`authors/:name`.
+- **authors/_Author[$name][books].vue** will create a sub page for **Author** type at`authors/:name/books`.
 
 ### Dynamic pages:
 - **account/$user.vue** creates dynamic `account/:user` url with access to **$route.param.user**.
